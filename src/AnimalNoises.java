@@ -22,7 +22,7 @@ public class AnimalNoises {
 		Moose bullwinkle = new Moose();
 		System.out.println(bullwinkle.speak());
 		
-		Animal animal1 = new Animal("Lion", "Red", "Roar!");
+		Lion animal1 = new Lion("Lion", "Red", "Roar!");
 		System.out.println(animal1.MakeNoise());
 		
 	}
