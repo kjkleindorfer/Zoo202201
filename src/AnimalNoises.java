@@ -13,6 +13,8 @@ import model.Sheep;
 
 public class AnimalNoises {
 
+	
+
 	// add your animal class to the model package
 	// only push this file and the animal class you created
 
@@ -32,6 +34,11 @@ public class AnimalNoises {
 		Moose bullwinkle = new Moose();
 		System.out.println(bullwinkle.speak());
 		
+<<<<<<< HEAD
+		Lion animal1 = new Lion("Lion", "Red", "Roar!");
+		System.out.println(animal1.MakeNoise());
+		
+=======
 		Bird flappy = new Bird();
 		System.out.println(flappy.speak());
 		
@@ -52,6 +59,7 @@ public class AnimalNoises {
 		
     Sheep wooly = new Sheep();
 		System.out.println(wooly.speak());
+>>>>>>> 9d28afe6c069650f86ef75c1451ff1cbd8462d6c
 	}
 
 }
