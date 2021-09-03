@@ -25,6 +25,7 @@ import model.Wolf;
 import model.Monkey;
 import model.Seal;
 import model.Parrot;
+import model.Dinosaur;
 
 public class AnimalNoises {
 
@@ -112,6 +113,9 @@ public class AnimalNoises {
 
 		Wolf Leo = new Wolf("Leo", 32, "steppe wolf");
 		System.out.println(Leo.speak());
+    
+    Dinosaur rawrXD = new Dinosaur();
+		System.out.println(rawrXD.speak());
     
 	}
 
