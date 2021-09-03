@@ -8,6 +8,7 @@ import model.Owl;
 import model.Raven;
 import model.Otter;
 import model.Snake;
+import model.Tiger;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
@@ -80,7 +81,9 @@ public class AnimalNoises {
 		
 		Cow Betty = new Cow("Betty",8,"Brahman");
 		System.out.println(Betty.speak());
-
+		
+		Tiger Joey = new Tiger("Joey", "Bengal", 13);
+		System.out.println(Joey.speak());
 
 	}
 
