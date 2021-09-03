@@ -11,6 +11,7 @@ import model.Snake;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
+import model.Hummingbird;
 import model.Lion;
 import model.Fish;
 import model.Fox;
@@ -94,6 +95,9 @@ public class AnimalNoises {
 
 		Monkey Caesar = new Monkey("Caesar", 3, "Baboon");
 		System.out.println(Caesar.speak());
+
+		Hummingbird hummm = new Hummingbird();
+		System.out.println(hummm.makeNoise());
 
 		Parrot parrot = new Parrot("Jack Sparrow", "Asia", 4);
 		System.out.println(parrot.speak());
