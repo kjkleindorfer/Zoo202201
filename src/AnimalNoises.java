@@ -11,6 +11,7 @@ import model.Snake;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
+import model.Hummingbird;
 import model.Lion;
 import model.Fish;
 import model.Fox;
@@ -81,7 +82,8 @@ public class AnimalNoises {
 		Cow Betty = new Cow("Betty",8,"Brahman");
 		System.out.println(Betty.speak());
 
-
+		Hummingbird hummm = new Hummingbird();
+		System.out.println(hummm.makeNoise());
 	}
 
 }
