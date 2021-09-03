@@ -18,6 +18,7 @@ import model.Duck;
 import model.Elephant;
 import model.Sheep;
 import model.Bear;
+import model.Wolf;
 import model.Monkey;
 import model.Seal;
 import model.Parrot;
@@ -97,7 +98,8 @@ public class AnimalNoises {
 		Parrot parrot = new Parrot("Jack Sparrow", "Asia", 4);
 		System.out.println(parrot.speak());
 
-
+		Wolf Leo = new Wolf("Leo", 32, "steppe wolf");
+		System.out.println(Leo.speak());
 	}
 
 }
