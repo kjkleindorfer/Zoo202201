@@ -6,6 +6,7 @@ import model.Giraffe;
 import model.Moose;
 import model.Owl;
 import model.Raven;
+import model.Rhino;
 import model.Otter;
 import model.Snake;
 import model.Tiger;
@@ -88,6 +89,9 @@ public class AnimalNoises {
 		Cow Betty = new Cow("Betty",8,"Brahman");
 		System.out.println(Betty.speak());
 		
+		Rhino spike = new Rhino();
+		System.out.println(spike.speak());
+
 		Tiger Joey = new Tiger("Joey", "Bengal", 13);
 		System.out.println(Joey.speak());
 
