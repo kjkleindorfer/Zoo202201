@@ -12,12 +12,18 @@ import model.Tiger;
 import model.Zebra;
 import model.Bird;
 import model.Goose;
+import model.Hummingbird;
 import model.Lion;
 import model.Fish;
 import model.Fox;
 import model.Duck;
+import model.Elephant;
 import model.Sheep;
 import model.Bear;
+import model.Wolf;
+import model.Monkey;
+import model.Seal;
+import model.Parrot;
 
 public class AnimalNoises {
 
@@ -85,6 +91,24 @@ public class AnimalNoises {
 		Tiger Joey = new Tiger("Joey", "Bengal", 13);
 		System.out.println(Joey.speak());
 
+		Elephant Dumbo = new Elephant();
+		System.out.println(Dumbo.speak());
+
+		Seal Mango = new Seal("Ribbon Seal", "Female", "Black and White");
+		System.out.println(Mango.makeNoise());
+
+		Monkey Caesar = new Monkey("Caesar", 3, "Baboon");
+		System.out.println(Caesar.speak());
+
+		Hummingbird hummm = new Hummingbird();
+		System.out.println(hummm.makeNoise());
+
+		Parrot parrot = new Parrot("Jack Sparrow", "Asia", 4);
+		System.out.println(parrot.speak());
+
+		Wolf Leo = new Wolf("Leo", 32, "steppe wolf");
+		System.out.println(Leo.speak());
+    
 	}
 
 }
