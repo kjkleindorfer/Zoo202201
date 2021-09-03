@@ -17,6 +17,7 @@ import model.Fox;
 import model.Duck;
 import model.Sheep;
 import model.Bear;
+import model.Dinosaur;
 
 public class AnimalNoises {
 
@@ -81,7 +82,8 @@ public class AnimalNoises {
 		Cow Betty = new Cow("Betty",8,"Brahman");
 		System.out.println(Betty.speak());
 
-
+		Dinosaur rawrXD = new Dinosaur();
+		System.out.println(rawrXD.speak());
 	}
 
 }
