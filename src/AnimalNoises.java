@@ -26,6 +26,7 @@ import model.Monkey;
 import model.Seal;
 import model.Parrot;
 import model.Dinosaur;
+import model.Platypus;
 
 public class AnimalNoises {
 
@@ -116,6 +117,9 @@ public class AnimalNoises {
     
     Dinosaur rawrXD = new Dinosaur();
 		System.out.println(rawrXD.speak());
+
+		Platypus perry = new Platypus();
+		System.out.println(perry.speak());
     
 	}
 
